@@ -5,9 +5,7 @@
    //4)Tranne per i multipli di 5  , in quel caso stampare "Buzz" al posto del numero
 
 
-//1)Stampami in console i numeri da 1 a 100   
-
-
+//1)Stampami in console i numeri da 1 a 100
 
 for(let numero=1 ; numero <= 100 ; numero++){
    //2)Per i numeri che sono sia multipli di 3 che di 5 stampi "FizzBuzz"
@@ -26,3 +24,15 @@ for(let numero=1 ; numero <= 100 ; numero++){
         console.log(numero)
     } 
 }
+
+    // crea un nuovo elemento div
+    const newDiv = document.createElement("div");
+    //dai un pò di contenuto
+    newDiv.innerHTML = "Ciao Silvio non ci mancherai.";
+    //aggiungi un nodo di testo al div appena creato
+    document.getElementById("div1").appendChild(newDiv);
+
+    //aggiungi l'elemento appena creato e il suo contenuto nel DOM
+    // const currentDiv = document.getElementById("div1");
+    // document.body.insertBefore(newDiv);
+
