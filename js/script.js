@@ -32,7 +32,4 @@ for(let numero=1 ; numero <= 100 ; numero++){
     //aggiungi un nodo di testo al div appena creato
     document.getElementById("div1").appendChild(newDiv);
 
-    //aggiungi l'elemento appena creato e il suo contenuto nel DOM
-    // const currentDiv = document.getElementById("div1");
-    // document.body.insertBefore(newDiv);
 
