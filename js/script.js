@@ -1,11 +1,18 @@
-//Consegna:
-   //1)Scrivi un programma che stampi in console i numeri da 1 a 100,
-   //2)Per i numeri che sono sia multipli di 3 che di 5 stampi "FizzBuzz"
-   //3)Tranne per i multipli di 3  , in quel caso stampare "Fizz" al posto del numero 
-   //4)Tranne per i multipli di 5  , in quel caso stampare "Buzz" al posto del numero
+/*
+Consegna:
+   1)Crea un ciclo che va da 1 a 100
+   2)PER OGNI ITERAZIONE controllo se il numero salvato nel contatore e 
+                          o multiplo di 3, o multiplo di 5 , o multiplo di entrambi
+        -Se è multiplo di 3 -> stampo Fizz in console
+        -Se è multiplo di 5 -> stampo Buzz in console
+        -Se è sia m. di 3 che di 5 -> stampo FizzBuzz in console.
+        -ALTRIMENTI stampo il numero in console 
 
+*/
 
-//1)Stampami in console i numeri da 1 a 100
+//1)Creo un ciclo
+    //PER OGNI ITERAZIONE:
+    //1a)Stampami in console i numeri da 1 a 100
 
 
 for(let numero=1 ; numero <= 100 ; numero++){
